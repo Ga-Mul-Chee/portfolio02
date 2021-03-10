@@ -1,0 +1,146 @@
+#menu_text{text-align: center; width: 200px;}
+
+#section{position: relative;}
+#menuimg{width: 1920px; height: 1080px; position: absolute; z-index: 9999;  display: none;}
+#menu_background{width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); position: relative;}
+#menuimg01{width: 600px; height: 600px; position: absolute; top: 20%; left: 20%;}
+
+.tabs {
+	position: relative;
+	width: 960px;
+	overflow: hidden;
+	/* margin: 1em 0 2em; */
+	font-weight: 300;
+}
+
+/* Nav */
+.tabs nav {
+	text-align: center;
+}
+
+.tabs nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.tabs nav ul li {
+	border-bottom: none;
+	margin: 0 0.25em;
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.tabs nav li.tab-current {
+	border-bottom: none;
+	z-index: 100;
+}
+
+.tabs nav li.tab-current:before,
+.tabs nav li.tab-current:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	right: 100%;
+	bottom: 0;
+	width: 1000px;
+	z-index: 100;
+}
+
+.tabs nav li.tab-current:after {
+	right: auto;
+	left: 100%;
+	width: 4000px;
+}
+
+.tabs nav a {
+	font-weight: bold;
+	color: #f48400;
+	display: block;
+	font-size: 1.45em;
+	line-height: 2.5;
+	padding: 0 1.25em;
+	white-space: nowrap;
+}
+
+.tabs nav a:hover {
+	background-color: #f48400;
+	border-radius: 30px;
+	color: #652a0e;
+}
+
+.tabs nav li.tab-current a {
+	z-index: 100;
+	color: #652a0e;
+}
+
+/* Icons */
+.tabs nav a:before {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	margin: -0.25em 0.4em 0 0;
+}
+
+/* Content */
+.content section {
+	float: left;
+	font-size: 1.25em;
+	padding: 3em 1em;
+	display: none;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content section:before,
+.content section:after {
+	content: '';
+	display: table;
+}
+
+.content section:after {
+	clear: both;
+}
+
+/* Fallback example */
+.no-js .content section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #f48400;
+}
+
+.content section.content-current {
+	width: 960px;
+	display: block;
+}
+
+.mediabox {
+	float: left;
+	width: 190px;
+	padding: 0 25px;
+}
+
+.mediabox img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.mediabox h4 {
+	display: block;
+	margin: 0.75em 0 0.5em;
+}
+
+.mediabox p {
+	padding: 0 0 1em 0;
+	margin: 0;
+	line-height: 1.3;
+}
+

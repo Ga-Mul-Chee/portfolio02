@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://swiperjs.com/demos/280-autoplay.html -->
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>화평동 왕냉면</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!--파비콘-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--애니메이티드 고정 헤더-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <!--내스타일-->
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <!-- Demo styles -->
+</head>
+
+<body>
+    <!--애니메이트 고정 헤더 tag-->
+    <div class="cbp-af-header">
+        <div id="top_bar">
+            <nav>
+                <a href="#"><img src="img/facebook.png" alt=""></a>
+                <a href="#"><img src="img/instar.png" alt=""></a>
+                <a href="#"><img src="img/twitter.png" alt=""></a>
+                <a href="#">매장찾기</a>
+            </nav>
+        </div>
+        <div class="cbp-af-inner">
+
+            <h1><a href="index.html"><img src="img/Untitled-1.png" alt="logo"></a></h1>
+            <nav>
+                <a href="#" onclick="alert('페이지 준비중입니다.');">화평동</a>
+                <a href="htm/sub_01.html">메뉴</a>
+                <a href="#" onclick="alert('페이지 준비중입니다.');">창업안내</a>
+                <a href="#" onclick="alert('페이지 준비중입니다.');">게시판</a>
+            </nav>
+        </div>
+    </div>
+    <!--//애니메이트 고정 헤더 tag-->
+
+    <!-- Swiper -->
+    <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+        <div class="swiper-wrapper" id="swiper-wrapper-a178ac6b75f852c6" aria-live="off"
+            style="transition: all 0ms ease 0s; transform: translate3d(-7244px, 0px, 0px);">
+            <div class="swiper-slide" role="group" aria-label="1 / 10" style="width: 1781px; margin-right: 30px;"><img
+                    src="img/mainslide1.png" alt="img1">
+                <div id="slide_text">
+                    <p>전통의 화평동</p>
+                </div>
+            </div>
+            <div class="swiper-slide" role="group" aria-label="2 / 10" style="width: 1781px; margin-right: 30px;"><img
+                    src="img/mainslide2.png" alt="img2">
+                    <div id="slide_text">
+                        <p>따뜻한 화평동</p>
+                    </div>
+                </div>
+            <div class="swiper-slide" role="group" aria-label="3 / 10" style="width: 1781px; margin-right: 30px;"><img
+                    src="img/mainslide3.png" alt="img3">
+                    <div id="slide_text">
+                        <p>맛있는 화평동</p>
+                    </div>
+                </div>
+        </div>
+    <!-- //Swiper -->    
+
+    <!--footer-->
+        <footer id="footer">
+            <div id="center">
+                <address>
+                    <p>서울특별시 종로구 명륜3가 14-2</p>
+                    <br>
+                    <p>Tel 02-742-8212 | Fax 34-5454-9543 | E-mail hwa@email.com | 사업자등록번호 123-45-78945</p>
+                    <div><img src="img/footerlogo.png" alt="logo"></div>
+                </address>
+                
+            </div>
+        </footer>
+    <!--//footer-->
+        <!-- Swiper JS -->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+        <!--애니메이트 고정 헤더 js-->
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.min.js"></script>
+        <!--//애니메이트 고정 헤더 js-->
+
+
+</body>
+
+</html>

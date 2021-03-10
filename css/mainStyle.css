@@ -1,0 +1,53 @@
+/*초기화*/
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.center{width: 960px; margin: 0 auto;}
+/*//초기화*/
+
+/*고정 헤더*/
+#top_bar{width:100%; height: 40px; background-color: #f48400;}
+#top_bar nav{margin-right: 90px;}
+#top_bar .center div{float: right;}
+#top_bar a {float:left; line-height: 40px; height: 40px; margin-right: 10px;}
+#top_bar a img{width: 34px; height: 34px;}
+/*//고정 헤더*/
+
+/*기능 안되는거 표시*/
+.cbp-af-inner nav a:nth-of-type(1){opacity: 50%;}
+.cbp-af-inner nav a:nth-of-type(3){opacity: 50%;}
+.cbp-af-inner nav a:nth-of-type(4){opacity: 50%;}
+/*//기능 안되는거 표시*/
+
+/*section소개*/
+#backimg{position: relative;}
+#backimg img{width: 1920px; height: 400px;}
+#backimg h2{position: absolute; bottom: 100px; left: 900px; color: #fff; font-size: 2em;}
+#text_center{width: 960px; margin: 0 auto; padding-left: 140px;}
+/*//section소개*/
+
+/*main*/
+#section{width: 960px; margin: 0 auto; border-top: 1px solid gray;}
+#section li{float: left;}
+#menu_text p{font-size: 1.1em; color: black;}
+h3{color: #652a0e; margin: 10px 0 10px 0; font-size: 1.5em;}
+h4 ,h5{color: #f48400; margin-bottom: 10px; font-size: 1.1em;}
+/*//main*/
+
+/*swiper*/
+.swiper-slide {text-align: center; position: relative;}
+.swiper-slide img{padding-top: 200px;}
+.swiper-slide #slide_text{position: absolute; top: 450px; left: 800px; width: 300px; height: 200px; background-color: rgba(0, 0, 0, 0.6); border-radius: 20%; text-align: center; line-height: 200px; font-size: 2em; color: #fff;}
+/*//swiper*/
+
+/*footer*/
+#footer{width: 1920px; height: 200px; background-color: #f9f9f9; position: relative; border-top: 0.2px solid rgba(128, 128, 128, 0.3);}
+#footer address{width: 960px; margin: 0 auto; padding-top: 100px;}
+#footer address p{color: gray; font-size: 1.1em; font-style: normal;}
+#footer img{position: absolute; right: 450px; bottom: 10px; float: right; opacity: 20%;}
+/*//footer*/
+
+/*메뉴 팝업*/
+#bglayer{position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; display: none; z-index: 9998;}
+#overlayer{position: fixed; top: 60%; left: 50%; transform: translate(-50%,-50%); padding: 30px; border-radius: 10px; background-color: #fff; display: none; z-index: 9999;}
+/*//메뉴 팝업*/
